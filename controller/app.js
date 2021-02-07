@@ -13,7 +13,7 @@ app.use(bodyParser.json()); //parse appilcation/json data
 app.use(urlencodedParser);
 
 app.get('/', function (req, res) {
-    res.send('Hello World! this is a web api for your web app to connect');
+    res.send('Hello World! this is a web api for CA2 on AWS');
   });
 
 app.post('/api/user',verifyToken,function(req,res){

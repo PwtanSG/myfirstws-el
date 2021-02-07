@@ -9,7 +9,7 @@ var dbConnect={
 	    host:"bdd-db.csn6grmspbkl.us-east-1.rds.amazonaws.com",
             user:"admin88",
             password:"12345678",
-            database:"furniture"
+            database:"spmart"
 
         }
 
